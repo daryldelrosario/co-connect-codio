@@ -1,5 +1,5 @@
 body {
-      padding: 1%;
+  padding: 1%;
 }
 
 * {
@@ -9,7 +9,6 @@ body {
 .left, .right, .center {
 	float: left;
 	width: 33%;
-	color: black;
 	padding: 10px;
 	height: 500px;
 	text-align: center;
@@ -17,10 +16,12 @@ body {
 
 .left, .right {
 	background-color: red;
+	color: black;
 }
 
 .center {
 	background-color: black;
+	color: white;
 }
 
 .container:after {
